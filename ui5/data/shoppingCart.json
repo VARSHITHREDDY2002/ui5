@@ -1,0 +1,13 @@
+{
+    "creditCardDetails": {
+        "cartholdersName":  "John Doe",
+        "cartNumber":       "1111-2222-3333-4444",
+        "securityCode":     "123"
+    },
+    "invoiceAdress": {
+        "adress":           "Street 42",
+        "city":             "Metropolis",
+        "zipCode":          "12345",
+        "country":          "Germany"
+    }
+}
