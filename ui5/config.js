@@ -19,4 +19,4 @@ exports.config = merge(profile.config, {
 beforeTest: (test, context) => {
   console.log('Before Test: ', test.title);
   // Add any code you want to run before each test script execution
-},
+};
