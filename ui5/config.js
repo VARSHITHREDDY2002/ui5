@@ -9,8 +9,9 @@ exports.config = merge(profile.config, {
       data: "./data/"
     }
   },
-  
+
   specs: [
     path.resolve(__dirname, "specs/shoppingCart.spec.js")
+    path.resolve(__dirname,"specs/shoppingCart2.spec.js")
   ]
 });
