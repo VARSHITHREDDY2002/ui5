@@ -10,14 +10,14 @@ exports.config = merge(profile.config, {
     }
   },
 
-  beforeTest: (test, context) => {
-    console.log('Before Test: ', test.title);
-    // Add any code you want to run before each test script execution
-  },
+  // beforeTest: (test, context) => {
+  //   console.log('Before Test: ', test.title);
+  //   // Add any code you want to run before each test script execution
+  // },
 
 
   specs: [
-    path.resolve(__dirname, "specs/shoppingCart.spec.js"),
-    path.resolve(__dirname, "specs/shoppingCart1.spec.js")
+    path.resolve(__dirname, "specs/shoppingCart.spec.js")
+  //  path.resolve(__dirname, "specs/shoppingCart1.spec.js")
   ]
 });
