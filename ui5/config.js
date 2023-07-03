@@ -17,7 +17,7 @@ exports.config = merge(profile.config, {
 
 
   specs: [
-    path.resolve(__dirname, "specs/shoppingCart.spec.js")
-  //  path.resolve(__dirname, "specs/shoppingCart1.spec.js")
+    path.resolve(__dirname, "specs/shoppingCart.spec.js"),
+   path.resolve(__dirname, "specs/shoppingCart1.spec.js")
   ]
 });
